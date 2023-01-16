@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tax-bot"
+version = "0.1.0"
+description = "simple telegram bot for calculating taxes"
+authors = ["hillow <andrew.hillow@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tax_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^0.21.0"
+aiogram = "^2.24"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
